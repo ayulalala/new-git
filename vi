@@ -1,0 +1,22 @@
+# causes problems, add the -c option to TROFF, NROFF.
+#
+TROFF		/usr/bin/groff -Tps -mandoc
+NROFF		/usr/bin/nroff -c --legacy NROFF_OLD_CHARSET -mandoc 2>/dev/null
+EQN		/usr/bin/geqn -Tps
+NEQN		/usr/bin/geqn -Tutf8
+TBL		/usr/bin/gtbl
+# COL		/usr/bin/col
+REFER		/usr/bin/grefer
+PIC		/usr/bin/gpic
+# causes problems, add the -c option to TROFF, NROFF.
+#
+TROFF		/usr/bin/groff -Tps -mandoc
+NROFF		/usr/bin/nroff -c --legacy NROFF_OLD_CHARSET -mandoc 2>/dev/null
+EQN		/usr/bin/geqn -Tps
+NEQN		/usr/bin/geqn -Tutf8
+TBL		/usr/bin/gtbl
+# COL		/usr/bin/col
+REFER		/usr/bin/grefer
+PIC		/usr/bin/gpic
+VV]
+ zuerst dresden sommer
